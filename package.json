@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-dts",
+  "name": "@beda.software/vite-plugin-dts",
   "version": "4.0.0-beta.1",
   "type": "module",
   "license": "MIT",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qmhc/vite-plugin-dts.git"
+    "url": "git+https://github.com/beda-software/vite-plugin-dts.git"
   },
   "bugs": {
-    "url": "https://github.com/qmhc/vite-plugin-dts/issues"
+    "url": "https://github.com/beda-software/vite-plugin-dts/issues"
   },
   "keywords": [
     "vite",
