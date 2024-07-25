@@ -234,7 +234,8 @@ export function transformCode(options: {
     prependImports += `import { ${Array.from(importSet).join(', ')} } from '${libName}';\n`
   })
 
-  s.prepend(prependImports.slice(0, -1))
+  s.trimStart('\n')
+  s.prepend(prependImports)
 
   return {
     content: s.toString(),
